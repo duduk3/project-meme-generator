@@ -11,7 +11,19 @@
     margin: 30px auto;
 }
 
-.textLabel {
+.text-label {
     margin: 5px 5px 15px 30px;
 }
 
+#text-input {
+    margin: 10px 30px;
+}
+
+#meme-insert {
+    margin: 10px 36px;
+}
+
+#meme-image {
+    width: 400px;
+    margin: 10px 0px 0px 30px;
+}
