@@ -11,19 +11,19 @@
     <header>
         <h1 id="title">Meme Generator</h1>
     </header>
-    <main id="meme-image-container">
-        <form action="">
-            <div>
-                <label class="text-label" for="texto">Texto:</label>
-                <input type="text" name="Texto:" id="text-input">
-            </div>
-            <div>
-                <label class="text-label" for="texto">Foto:</label>
-                <input type="file" name="image-upload" id="meme-insert">
-            </div>
-        </form>
+    <main >
         <div>
-            <img id="meme-image" src="https://blog.cobasi.com.br/wp-content/uploads/2020/11/canario-da-terra-principal.png" alt="fotos">
+            <p class="text-label">Texto:</p>
+            <input type="text" id="text-input">
+        </div>
+        <div >
+            <p class="text-label">Foto:</p>
+            <input type="file" id="meme-insert">
+        </div>
+        <div id="meme-image-container">
+            <!-- <img id="meme-image" src="" alt=""> -->
+            <div id="meme-image"></div>
+            <p id="meme-text"></p>
         </div>
 
     </main>

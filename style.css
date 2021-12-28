@@ -12,6 +12,7 @@
 }
 
 .text-label {
+    display: inline;
     margin: 5px 5px 15px 30px;
 }
 
@@ -23,7 +24,30 @@
     margin: 10px 36px;
 }
 
-#meme-image {
-    width: 400px;
+#meme-image-container {
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
     margin: 10px 0px 0px 30px;
+    background-color: white;
+}
+
+#meme-image {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-image: url('');
+    background-size: cover;
+}
+
+#meme-text {
+    position: absolute;
+    width: 290px;
+    margin: 280px 10px 0px 10px;
+    font-size: 22px;
+    font-family: "Barrio", cursive;
+    text-align: center;
+    color: rgb(3, 83, 97);
+    text-shadow: 1.5px 2px 1.5px rgb(2, 2, 56);
 }
