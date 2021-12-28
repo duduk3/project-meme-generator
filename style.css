@@ -27,7 +27,7 @@
 #meme-image-container {
     display: inline-block;
     width: 350px;
-    height: 450px;
+    height: 400px;
     border: 1px solid black;
     margin: 10px 0px 0px 30px;
     background-color: white;
@@ -36,7 +36,7 @@
 #meme-image {
     position: absolute;
     width: 350px;
-    height: 450px;
+    height: 400px;
     background-image: url('');
     background-position: center;
     background-size: cover;
@@ -51,4 +51,30 @@
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#buttons {
+    margin: 10px 30px;
+}
+
+.board-btn {
+    width: 60px;
+    height: 80px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+#fire {
+    background-color: red;
+    border: 2px solid black;
+}
+
+#water {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#earth {
+    background-color: green;
+    border: 2px solid black;
 }
