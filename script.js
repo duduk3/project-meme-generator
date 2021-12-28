@@ -21,10 +21,8 @@ uploadImage.addEventListener('change', (event)=>{
     const file = event.target.files[0];
     urlImage = "url('./imagens/" + file.name + "')";
     memeImage.style.backgroundImage = urlImage;
-    console.log(file.name);
-    console.log(urlImage);
 });
 
-memeText.addEventListener('keypress', () => {
+memeText.addEventListener('keyup', () => {
     document.querySelector('#meme-text').innerText = memeText.value;
 });

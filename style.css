@@ -38,6 +38,7 @@
     width: 350px;
     height: 450px;
     background-image: url('');
+    background-position: center;
     background-size: cover;
 }
 
@@ -46,8 +47,8 @@
     width: 290px;
     margin: 280px 10px 0px 10px;
     font-size: 22px;
-    font-family: "Barrio", cursive;
+    font-family: "Bangers", cursive;
     text-align: center;
-    color: rgb(3, 83, 97);
+    color: rgb(93, 209, 230);
     text-shadow: 1.5px 2px 1.5px rgb(2, 2, 56);
 }
