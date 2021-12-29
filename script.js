@@ -1,3 +1,5 @@
+/* eslint-disable prefer-arrow-callback */
+/* eslint-disable func-names */
 /* eslint-disable sonarjs/no-duplicate-string */
 /* eslint-disable keyword-spacing */
 /* eslint-disable space-before-function-paren */
@@ -22,10 +24,10 @@ let redBtn = document.querySelector('#fire');
 let blueBtn = document.querySelector('#water');
 let greenBtn = document.querySelector('#earth');
  
-uploadImage.addEventListener('change', (event)=>{
+uploadImage.addEventListener('change', function(event) {
     const file = event.target.files[0];
-    urlImage = "url('./imagens/" + file.name + "')";
-    memeImage.style.backgroundImage = urlImage;
+    urlImage = "./imgs/" + file.name;
+    memeImage.src = urlImage;
 });
 
 memeText.addEventListener('keyup', () => {
@@ -55,4 +57,18 @@ function changeBoard(event){
         imageContainer.style.border = "6px groove green";
         event.target.style.border = "6px groove green";
     }
+}
+
+let btnMeme1 = document.querySelector('#meme-1');
+let btnMeme2 = document.querySelector('#meme-2');
+let btnMeme3 = document.querySelector('#meme-3');
+let btnMeme4 = document.querySelector('#meme-4');
+
+btnMeme1.addEventListener('click', changeImage);
+btnMeme2.addEventListener('click', changeImage);
+btnMeme3.addEventListener('click', changeImage);
+btnMeme4.addEventListener('click', changeImage);
+
+function changeImage(event){
+    memeImage.src = event.target.src;
 }
