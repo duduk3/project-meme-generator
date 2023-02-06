@@ -6,7 +6,7 @@
 
 <details>
   <summary>
-    <b>📌 Aqui usamos a criatividade criar memes:</b>
+    <b>📌 Aqui usamos a criatividade para criar memes:</b>
   </summary>
   
   - **1** inserindo um texto no input
