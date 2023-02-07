@@ -26,8 +26,8 @@
   - **depois exportá-los para compartilhar com seus amigos**
 </details>
 
-<b>😉 Foi fenomenal!</b>
+<b>😉 Foi fenomenal! 🤪</b>
 
 
 
-### Foi bem legal! Ver o código Javascript rodando e proporcionando uma página que responde ao comando do usuário e funcional além de tudo.🎨
+### Foi bem legal! Ver o código Javascript rodando e proporcionando uma página que responde ao comando do usuário e funcional além de tudo.😅 😂 🤣
